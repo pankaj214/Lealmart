@@ -14,23 +14,23 @@ const UpdateUser = () => {
   
   <Form >
 
-  <Form.Group controlId="formBasicEmail">
+  <Form.Group controlId="formBasicName">
     <Form.Label>Name</Form.Label>
     <Form.Control type="text"  />
 
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group controlId="formBasicName">
     <Form.Label>Username</Form.Label>
     <Form.Control type="text"/>
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group controlId="formBasicEmail">
     <Form.Label>Email</Form.Label>
     <Form.Control type="email" />
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group controlId="formBasicName">
     <Form.Label>Phone</Form.Label>
     <Form.Control type="text" />
   </Form.Group>

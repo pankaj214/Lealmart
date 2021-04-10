@@ -14,23 +14,23 @@ const CreateUser = () => {
   
   <Form >
 
-  <Form.Group controlId="formBasicEmail">
+  <Form.Group controlId="formBasicName">
     <Form.Label>Name</Form.Label>
     <Form.Control type="text" placeholder="Enter name" />
 
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group controlId="formBasicName">
     <Form.Label>Username</Form.Label>
     <Form.Control type="text" placeholder="Enter Username" />
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group controlId="formBasicEmail">
     <Form.Label>Email</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group controlId="formBasicName">
     <Form.Label>Phone</Form.Label>
     <Form.Control type="text" placeholder="Enter Phone Number" />
   </Form.Group>
